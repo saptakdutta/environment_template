@@ -13,7 +13,7 @@ dependencies:
 - pip
 # Pip dependencies go here
 - pip:
-# Install the basic pip goodies for REPL, code formatting, type checking/hints, pretty printing loops, JIT compilation etc
+# Install the basic pip goodies for REPL, code formatting, type checking/hints, pretty printing loops etc
   - black
   - mypy
   - tqdm
