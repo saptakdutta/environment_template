@@ -1,0 +1,23 @@
+# to create this venv run: conda env create -f environment.yml || mamba env create -f environment.yml
+# to destroy this venv run: conda remove -n env_name_here --all || mamba remove -n env_name_here --all
+name: env_name_here
+channels:
+- nodefaults
+- conda-forge
+dependencies:
+- python
+# Conda dependencies go here
+- pandas
+- numpy
+- matplotlib
+- pip
+# Pip dependencies go here
+- pip:
+# Install the basic pip goodies for REPL, code formatting, type checking/hints, pretty printing loops, JIT compilation etc
+  - black
+  - mypy
+  - tqdm
+  - ipykernel
+# Project related dependencies go here
+  - datetime
+  - scikit-learn
