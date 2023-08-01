@@ -1,4 +1,7 @@
-# to create this venv run: conda env create -f environment.yml || mamba env create -f environment.yml
+# to spped thing up install libmamba solver as follows:
+# 1. conda update -n base conda
+# 2. conda install -n base conda-libmamba-solver
+# to create this venv run: conda env create -f environment.yml --solver=libmamba || mamba env create -f environment.yml
 # to destroy this venv run: conda remove -n env_name_here --all || mamba remove -n env_name_here --all
 name: env_name_here
 channels:
