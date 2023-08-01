@@ -2,17 +2,26 @@
 # 1. conda update -n base conda
 # 2. conda install -n base conda-libmamba-solver
 # to create this venv run: conda env create -f environment.yml --solver=libmamba || mamba env create -f environment.yml
-# to destroy this venv run: conda remove -n env_name_here --all || mamba remove -n env_name_here --all
-name: env_name_here
+# to destroy this venv run: conda remove -n pytorch_ex --all || mamba remove -n pytorch_ex --all
+name: pytorch_ex
 channels:
 - nodefaults
 - conda-forge
+- pytorch
+- nvidia
 dependencies:
 - python
 # Conda dependencies go here
 - pandas
 - numpy
 - matplotlib
+- h5py
+- nvidia::cudatoolkit
+- pytorch::pytorch
+- pytorch::torchvision
+- pytorch::torchaudio
+- pytorch::pytorch-cuda=11.8
+- conda-forge::pytorch-lightning
 - pip
 # Pip dependencies go here
 - pip:
