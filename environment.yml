@@ -13,6 +13,7 @@ dependencies:
 - pandas
 - numpy
 - matplotlib
+- some_new_package
 - pip
 # Pip dependencies go here
 - pip:
