@@ -13,7 +13,7 @@ dependencies:
 - pandas
 - numpy
 - matplotlib
-- arrow
+- pyarrow
 - pip
 # Pip dependencies go here
 - pip:
