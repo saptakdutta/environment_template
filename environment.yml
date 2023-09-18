@@ -22,6 +22,8 @@ dependencies:
 - pytorch::torchaudio
 - pytorch::pytorch-cuda=11.8
 - conda-forge::pytorch-lightning
+- conda-forge::pytorch-forecasting
+- conda-forge::lightning
 - pip
 # Pip dependencies go here
 - pip:
