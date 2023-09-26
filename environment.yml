@@ -24,6 +24,7 @@ dependencies:
 - conda-forge::pytorch-lightning
 - conda-forge::pytorch-forecasting
 - conda-forge::lightning
+- sqlmodel
 - pip
 # Pip dependencies go here
 - pip:
@@ -36,3 +37,4 @@ dependencies:
 # Project related dependencies go here
   - datetime
   - scikit-learn
+  - httpx
