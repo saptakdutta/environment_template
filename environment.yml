@@ -23,6 +23,8 @@ dependencies:
   - tqdm
   - ipykernel
   - tabulate
+  - sqlmodel
 # Project related dependencies go here
   - datetime
   - scikit-learn
+  - httpx
