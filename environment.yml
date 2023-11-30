@@ -15,6 +15,7 @@ dependencies:
 - matplotlib
 - pyarrow
 - pydantic
+- conda-lock
 - pip
 # Pip dependencies go here
 - pip:
