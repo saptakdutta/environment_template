@@ -24,6 +24,7 @@ dependencies:
 - conda-forge::pytorch-lightning
 - conda-forge::pytorch-forecasting
 - conda-forge::lightning
+- conda-forge::conda-lock
 - pip
 # Pip dependencies go here
 - pip:
