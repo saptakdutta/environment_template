@@ -14,8 +14,6 @@ dependencies:
 - numpy
 - matplotlib
 - pyarrow
-- pydantic
-- conda-lock
 - pip
 # Pip dependencies go here
 - pip:
@@ -29,4 +27,3 @@ dependencies:
 # Project related dependencies go here
   - datetime
   - scikit-learn
-  - httpx
